@@ -19,7 +19,7 @@ public class PointTest {
     }
 
     @Test
-    public void when1i3to5i6then5() {
+    public void when1And3to5And6then5() {
         double expected = 5;
         int x1 = 1;
         int y1 = 3;
@@ -30,7 +30,7 @@ public class PointTest {
     }
 
     @Test
-    public void when6i7to12i15then10() {
+    public void when6And7to12And15then10() {
         double expected = 10;
         int x1 = 6;
         int y1 = 7;
@@ -41,7 +41,7 @@ public class PointTest {
     }
 
     @Test
-    public void when3i5to3i9then4() {
+    public void when3And5to3And9then4() {
         double expected = 4;
         int x1 = 3;
         int y1 = 5;
