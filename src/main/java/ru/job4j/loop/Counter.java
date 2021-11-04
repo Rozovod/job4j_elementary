@@ -9,11 +9,25 @@ public class Counter {
         return sum;
     }
 
+    public static int sumByEven(int start, int finish) {
+       int sum = 0;
+       for (int indexEven = start; indexEven <= finish; indexEven++) {
+           if (indexEven % 2 == 0) {
+               sum = sum + indexEven;
+           }
+       }
+       return sum;
+    }
+
     public static void main(String[] args) {
         System.out.println(sum(0, 10));
         System.out.println(sum(3, 8));
         System.out.println(sum(1, 1));
         System.out.println(sum(-5, 5));
         System.out.println(sum(-10, -5));
+
+        System.out.println(sumByEven(0, 10));
+        System.out.println(sumByEven(3, 8));
+        System.out.println(sumByEven(1, 1));
     }
 }
