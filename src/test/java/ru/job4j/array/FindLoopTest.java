@@ -26,7 +26,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHas9ThenMinus1() {
+    public void whenArrayHasNo9ThenMinus1() {
         int[] data = {1, 2, 3, 4, 5, 6};
         int el = 9;
         int result = FindLoop.index0f(data, el);
